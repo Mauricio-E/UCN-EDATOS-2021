@@ -33,6 +33,7 @@ Las comparaciones deben concretarse con hechos y datos, sin frases ambiguas o t�
 ### 1.1 Descripción del problema
 
 Dado el laboratorio describir como se entiende el problema bajo sus propias palabras.
+Para este laboratorio, principalmente el problema radica en la forma en que vamos a contabilizar las personas que entren o salgan de alguna zona para satisfacer el sistema de vigilancia solicitado. Este sistema puede ser resuelto de diferentes maneras a la hora de guardar datos, por ejemplo, si queremos guardar las personas que ingresan o egresan en un determinado lugar, tenemos diferentes estructuras de datos que nos pueden facilitar la tarea, sean varias listas, pocas listas, o inclusive una sola lista generica que nos permita identificar quienes entran, quienes salen, cuantas veces entra, o cuantas veces sale cada persona, dependiendo del requerimiento a pedir, por lo tanto, creo que el problema principal sera elegir que estructura de dato utilizar a la hora de trabajar. Tambien es preciso mencionar que habra mas de un problema dentro del laboratorio, quizas en menor medida, pero la utilizacion de la IDE y la investigacion respectiva no es absoluto un trabajo sencillo.
 
 ### 1.2 Objetivos 
 
@@ -60,11 +61,13 @@ Los objetivos específicos son acciones específicas que son desarrolladas para 
 
 ### 1.3 Solución propuesta
 
+Para solucionar este problema he decidido utilizar lista generica que me permita guardar personas que ingresan, que egresan, contabilizar cuantas veces entra cada persona, cuantas veces sale, flujos, etc., la idea es ir captando a traves de los rectangulos las personas e ir guardando estas personas en sus respectivas listas que seran instanciadas acorde a lo que solicita el requerimiento, por ejemplo, si reconoce a la misma personas, que cree una lista a partir de la generica que tenga un contador que le vaya sumando a medida que esta ingresa o sale, lo mismo para cada requerimiento, cabe destacar que todas estas soluciones estan sujeta a cambio a medida que el proyecto avance.
 Esbozo de la solución propuesta, se espera que esta vaya evolucionando a medida que se avanza en el proyecto.
 
 ## 2. Materiales y métodos
 
 Explicar brevemente como se espera desarrollar el trabajo de implementación.
+Primero realizare un modelo de dominio que me permita hacer un analisis general del proyecto, tambien se realizara un diagrama de clases mas especifico para el programador y finalmente, la implementacion del codigo quedara sujeta al analisis del diagrama de clases, de esta manera se asegura una correcta metodologia para la realizacion del proyecto.
 
 ### 2.1 Instalación
 
@@ -101,9 +104,10 @@ El detector de caras utilizado fue xxx. Para utilizarlo se debe.... El código p
 La primera linea carga el archivo de entrenamiento... etc
 
 ## 3. Resultados obtenidos
+Hasta el momento he podido instalar de manera satisfactoria todo lo relacionado a la IDE, el uso de GIT y el repositorio, tambien  la implementacion de algunos codigos guias facilitados por el docente, como la carga de imagenes, conteo de personas, ha sido realizado con exito.
 
 ## 4. Conclusiones
-
+La conclusion general queda marcada por la estrecha relacion que hay entre la organizacion de proyecto, que tiene que ver en gran medida con la utilizacion de Github y la implementacion de los codigos, saber documentar y dejar un registro de los avances diarios del proyecto, es fundamental para el desarrollo de ete, sin embargo es algo que aun no esta resuelto al 100% en mi caso, pero que sin duda es lo que he aprendido sobretodo en este ultimo periodo del proyecto.
 # Anexos
 
 ## Anexo A: Instalación librerías OpenCV
