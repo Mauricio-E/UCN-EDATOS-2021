@@ -75,7 +75,7 @@ Describir brevemente las librerías utilizadas para la instalación y programas 
 
 ### 2.2 Diseño 
 
-Explicar los componentes (módulos o clases) utilizados para resolver el problema. Indicar arquitectura propuesta, diagrama de clases u otro artefacto que estime conveniente para explicar el diseño de su implimentación.
+Para el diseño se utilza en el modelo del dominio los objetos guardia, administrador y puerta, ademas se utiliza un diagrama de clases que posee la clase Persona que tiene relacion directa con una lista de personas para ir guardando y registrando el ingreso o egreso de cada una, 
 
 ### 2.3 Implementación
 
@@ -107,7 +107,7 @@ La primera linea carga el archivo de entrenamiento... etc
 Hasta el momento he podido instalar de manera satisfactoria todo lo relacionado a la IDE, el uso de GIT y el repositorio, tambien  la implementacion de algunos codigos guias facilitados por el docente, como la carga de imagenes, conteo de personas, ha sido realizado con exito.
 
 ## 4. Conclusiones
-La conclusion general queda marcada por la estrecha relacion que hay entre la organizacion de proyecto, que tiene que ver en gran medida con la utilizacion de Github y la implementacion de los codigos, saber documentar y dejar un registro de los avances diarios del proyecto, es fundamental para el desarrollo de ete, sin embargo es algo que aun no esta resuelto al 100% en mi caso, pero que sin duda es lo que he aprendido sobretodo en este ultimo periodo del proyecto.
+La conclusion general queda marcada por la estrecha relacion que hay entre la organizacion de proyecto, que tiene que ver en gran medida con la utilizacion de Github y la implementacion de los codigos, saber documentar y dejar un registro de los avances diarios del proyecto, es fundamental para el buen desarrollo de ete, sin embargo es algo que aun no esta resuelto al 100% en mi caso, pero que sin duda es lo que he aprendido sobretodo en este ultimo periodo del proyecto, por lo tanto no me queda mas que seguir avanzando este proyecto dia a dia para ir mejorando los diferentes problemas que fueran a aparecer.
 # Anexos
 
 ## Anexo A: Instalación librerías OpenCV
