@@ -7,8 +7,8 @@
 
 **Alumnos:**
 
-* Alumno 01 (Rol)
-* Alumno 02 (Rol)
+* Mauricio Espinosa (Lider)
+
 
 ## Resumen 
 
