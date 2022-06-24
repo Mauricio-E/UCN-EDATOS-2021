@@ -12,11 +12,17 @@
 
 ## Resumen 
 
-> Agregar un resumen que describa el trabajo realizado y sus resultados. (Entre 150 y 180 palabras)
-> Más cosas...
-> El resumen indicarlo como cita con el comando `>`
+<Para poder realizar los requerimientos del taller, es preciso antes de comenzar a usar el repositorio Github, comprender detenidamente el funcionamiento general del proyecto, esto incluye un manejo basico de Git (para entender mejor el repositorio GitHub), comprension de aspectos basicos del uso de Visual Studio Code, y manejo del lenguaje C++, esto con el fin de obtener un desarrollo optimo a lo largo de todo el proyecto. El proyecto consta de 11 requerimientos que nos piden medir el trafico de personas que pasan por un lugar, ya sea trafico de entrada, trafico de salida, cantidad de personas por hora (velocidad entrada) que entran, o la cantidad de personas por hora que sale (velocidad de salida), etc., es por ello que el proyecto lo dividiremos en 2 partes, en primer lugar se haran los requerimientos 1-7, y luego para finalizar el proyecto se realizaran los requerimientos 8-11>
+
 
 ## 1. Introducción
+Este proyecto se basa en la realizacion de estructuras de datos que nos permite llevar un conteo preciso del ingreso y egreso de personas en un determinado lugar.
+-. Se crean diferentes tipos de clases para la ejecucion (Detector.hpp, Detector.cpp, detectedPeople.cpp, Persona.pp, Persona.hpp), todas relacionadas a Clase Persona
+-. Estas clases crean objetos que interactuan entre si para poder llevar a cabo el analisis respectivo, en este caso el conteo de ingreso y egresos respectivos.
+-. Se utilizan listas enlazadas simples y circulares para almacenar las personas, ya sean que ingresan, egresan, individuales, o cualquier tipo de conteo. Estas listas seran el eje principal de almacenamiento de informacion, ya que al ser secuencial nos permite un optimo almacenamiento, este tipo de estructura de datos es necesaria para la realiazacion de este proyecto.
+.- Se utilizan librerias de openCV en todo el proyecto
+
+
 
 La primera función de un reporte técnico es plasmar la información necesaria para que otras personas puedan reproducir el sistema propuesto o puedan entender su fucnionamiento . Para cumplir anterior se debe diferenciar claramente entre los artefactos de diseño e implementación. En el caso de un desarrollo tecnológico los algoritmos son importantes como componente de diseño y los programas generalmente son irrelevantes y deben resumidos o agregados en anexos en el documento. Los programas no son importantes en el documento, salvo si se quiere explicar conceptos expecíficos del lenguaje o del algoritmo implementado.
 
@@ -30,15 +36,18 @@ Dado el laboratorio describir como se entiende el problema bajo sus propias pala
 
 ### 1.2 Objetivos 
 
-**Objetivo General**
+**Construir un sistema que contabilize personas que ingresan y egresan de un determinado lugar a traves de una camara de video**
 
 El fin que se desea llegar. (Comenzar con un verbo: "Construir un sistema...", "Desarrollar un sistema...", etc)
 
 **Objetivos específicos**
 
-1. Objetivo 1
-2. Objetivo 2
-3. Objetivos 3
+1. Instalar efectivamente el compilador, la IDE y el GitHub para el repositorio 
+2. El codigo debe cargar y reconocer las imagenes entregadas por el docente
+3. Implementar codigo sin errores en la carga de imagenes
+4. Contabilizar a traves de estructura de datos las personas que ingresan y egresan a un lugar
+5. Manejo de excepcion y discriminacion de informacion de personas en las listas
+6. Termino proyecto en tiempo solicitado
 
 Los objetivos específicos son acciones específicas que son desarrolladas para lograr cumplir el objetivo general, por ejemplo:
 
