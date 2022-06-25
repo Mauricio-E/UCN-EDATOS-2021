@@ -57,7 +57,10 @@ Primero realizare un modelo de dominio que me permita hacer un analisis general 
 
 ### 2.1 Instalación
 
-Describir brevemente las librerías utilizadas para la instalación y programas utilizados para la ejecución del código. (Agregar una sección de anexo para describir como fueron instaladas las librerías de OpenCV y la IDE utilzada para el trabajo)
+#include <opencv2/objdetect.hpp> biblioteca para detectar objetos   
+#include <opencv2/highgui.hpp> biblioteca retorna ubicacion de las coordenadas de personas
+#include <opencv2/imgproc.hpp> bibloiteca que ayuda a detectar imagenes
+#include <opencv2/videoio.hpp> biblioteca para el analisis de video
 
 ### 2.2 Diseño 
 
