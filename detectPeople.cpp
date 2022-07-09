@@ -18,9 +18,11 @@ using namespace std;
 
 int main(int argc, char** argv)
 {
-
+    //clase que tiene metodos para detectar personas
     Detector detector;
+    //Declaro una estructura tipo matriz
     Mat imagen;
+    //Cargo la estructura datos con una imagen
     imagen = imread("C:/Users/MauricioE/Documents/GitHub/EDD22-01-Espinosa/imagenes/image0292.png");
     detector.toggleMode();
     cout << detector.modeName() << endl;
