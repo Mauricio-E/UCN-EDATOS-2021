@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+
+
+template <typename T>
+
+class Nodo {
+    T dato;
+    Nodo* next;
+
+public:
+    T getDato(){
+        return this->dato;
+    }
+    void setDato(T dato){
+        this->dato = dato;
+    }
+    Nodo* getNext(){
+        return this-> next;
+    }
+    void setNext(Nodo* next){
+        this-> next;
+    }
+    Nodo (T dato, Nodo* next){
+        this -> dato = dato;
+        this -> next = next;
+    }
+};
+
+template <typename T>
+class LinkedList{
+    int size;
+    Nodo<T>* head;
+}
