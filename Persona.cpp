@@ -1,5 +1,5 @@
 #include "Persona.hpp"
-
+//Mejorar codigo fuente
 Persona::Persona(cv::Rect &r){
     xComienzo = r.x;
     yComienzo = r.y;
